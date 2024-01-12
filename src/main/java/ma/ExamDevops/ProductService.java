@@ -16,6 +16,7 @@ public class ProductService {
 		}
 		return true;
 	}
+
 	public void AddProduct(Product product) {
 		try {
 		if(!productExist(product.getId())) {
