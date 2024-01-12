@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - openjdk@21.0.1
+
+script:
+  - mvn test
