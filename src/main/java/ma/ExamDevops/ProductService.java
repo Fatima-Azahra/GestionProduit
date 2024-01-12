@@ -50,4 +50,9 @@ public class ProductService {
 		System.out.println("Le produit que vous voulez supprimez n'existe pas");
 		
 	}
+	public void listProduct() {
+		for (Product product : products) {
+			System.out.println("Id : " + product.getId() + " nom : " + product.getNom() + " prix : " + product.getPrix() + " qté : " + product.getQuantite());
+		}
+	}
 }
